@@ -10,15 +10,11 @@
             <li>
                 <a href="/forum" class="">Forum</a>
             </li>
-            <li class="submenu">
-                <a href="/gallery">Gallery</a>
-               </li>
+        
             <li class="submenu">
                 <a href="/blog">Artikel</a>
             </li>
-            <li>
-                <a href="contact-1.html">Contact</a>
-            </li>
+            
             <li>
                 <a href="{{ auth()->check() ? '#' : '/login' }}" @if(auth()->check())onclick="document.getElementById('logout').submit()"@endif>{{ auth()->check() ? 'Logout' : 'Login' }}</a>
             </li>
