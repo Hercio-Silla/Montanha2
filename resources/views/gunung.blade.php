@@ -497,12 +497,15 @@
             <div class="container">
                 <div class="row no-margin" style="display: flex;flex-direction: row;justify-content: center;column-gap: 200px;">
                       
-                    <div class="col-sm-4 col-md-2 padding-leftright-null">
+                <div class="col-sm-4 col-md-2 padding-leftright-null">
                         <h6 class="heading white margin-bottom-extrasmall"><u>Contacts</u></h6>
+                        <ul class="info">
+                            <!-- <li><a href=""><i class="fa fa-facebook" aria-hidden="true"></i> Seismo Group</a></li> -->
                             <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i> @montanha</a></li>
                             <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i> @montanha</a></li>
                             <li><a href="#"><i class="" aria-hidden="true"></i> +62 08123456789</a></li>
                             <li><a href="#"><i class="" aria-hidden="true"></i> montanha@gmail.com</a></li>
+                        </ul>
                     </div>
 
                     <div class="col-sm-4 col-md-4 padding-leftright-null">

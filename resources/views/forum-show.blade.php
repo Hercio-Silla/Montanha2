@@ -44,7 +44,7 @@
 
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <!--[endif]-->
+    <![endif]-->
     </head>
     <body>
       
@@ -98,8 +98,8 @@
                     <ul class="slides">
                         <li style="background-image:url(/assets/img/forum.jpg)">
                             <div class="container text text-center">
-                                <h1 class="white margin-bottom-small">Question Show</h1>
-                                <p class="heading white">Explore pengalamanmu dengan mendaki gunung di Jawa Tegah</p>
+                                <h1 class="white margin-bottom-small">Forum Tanggapan</h1>
+                                <p class="heading white">Bagikan Tanggapan Anda</p>
                             </div>
                             <div class="gradient dark"></div>
                         </li>
@@ -173,19 +173,19 @@
                                                 <a href="#">{{ $question->tag }}</a>
                                             </div>
                                             <div class="taxonomy forum-post-cat">
-                                                <img src="img/forum/logo-favicon.png" alt=""><a href="#">Monatanha</a>
+                                                <img src="img/forum/logo-favicon.png" alt=""><a href="#">Montanha</a>
                                             </div>
                                         </div>
 
                                         @if(auth()->check())
                                         <div class="action-button-container action-btns">
-                                            <button class="action_btn btn-ans ask-btn reply-btn" id="reply-btn">Balas Pertanyaan</button>
+                                            <button class="action_btn btn-ans ask-btn reply-btn" id="reply-btn">Balas</button>
                                         </div>
 
                                         <div class="reply-section mt-3" hidden>
                                             <div class="card">
                                                 <div class="card-header">
-                                                    <h5>Balas Pertanayaan</h5>
+                                                    <h5>Balas</h5>
                                                 </div>
                                                 <div class="card-body">
                                                     <form class="d-flex flex-column" action="{{ route('forum-answer.store') }}" method="post">
@@ -197,7 +197,7 @@
                                                             <textarea name="description" required class="form-control" id="" cols="3" rows="3" name="description"></textarea>
                                                         </div>
 
-                                                        <button type="submit" class="action_btn btn-ans ask-btn reply-btn">Submit</button>
+                                                        <button type="submit" class="action_btn btn-ans ask-btn reply-btn">Kirim</button>
                                                     </form>
                                                 </div>
                                             </div>

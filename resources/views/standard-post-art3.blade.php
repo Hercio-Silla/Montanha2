@@ -240,7 +240,7 @@
                             </div>
                             <!--  END Share Btn  -->
                             <!--  Comments  -->
-                            <div class="row no-margin">
+                            <!-- <div class="row no-margin">
                                 <div class="col-md-12 padding-leftright-null">
                                     <div id="comments">
                                         <ul class="nav nav-tabs" role="tablist">
@@ -340,7 +340,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
             <!--  END Page Content, class footer-fixed if footer is fixed  -->
             
             <!--  Footer. Class fixed for fixed footer  -->
