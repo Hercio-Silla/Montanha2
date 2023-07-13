@@ -280,68 +280,35 @@
             <!--  END Page Content, class footer-fixed if footer is fixed  -->
             
             <!--  Footer. Class fixed for fixed footer  -->
-            <footer class="fixed full-width">
-                <div class="container">
-                    <div class="row no-margin">
-                        <div class="col-sm-4 col-md-2 padding-leftright-null">
-                            <h6 class="heading white margin-bottom-extrasmall">Dolomia</h6>
-                            <ul class="sitemap">
-                                <li><a href="">Home</a></li>
-                                <li><a href="">Pages</a></li>
-                                <li><a href="">Portfolio</a></li>
-                                <li><a href="">Blog</a></li>
-                                <li><a href="">Elements</a></li>
-                                <li><a href="">Contacts</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-sm-4 col-md-2 padding-leftright-null">
-                            <h6 class="heading white margin-bottom-extrasmall">Useful Links</h6>
-                            <ul class="useful-links">
-                                <li><a href="">FAQs</a></li>
-                                <li><a href="">Download Catalog</a></li>
-                                <li><a href="">Privacy Policy</a></li>
-                                <li><a href="">Cookie Policy</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-sm-4 col-md-4 padding-leftright-null">
-                            <h6 class="heading white margin-bottom-extrasmall">Contact Us</h6>
-                            <ul class="info">
-                                <li>Phone <a href="">+39 123456789</a></li>
-                                <li>Mail <a href="">mail@domain.com</a></li>
-                                <li>Monday to Friday <span class="white">9.00 am to 8.00 pm</span><br>Saturday from <span class="white">9.00 am to 12.00 pm</span></li>
-                                <li><a href="">322 Moon St, Venice<br>
-                                    Italy, 1231</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-md-4 padding-leftright-null">
-                            <h6 class="heading white margin-bottom-extrasmall">Passionate About Nature</h6>
-                            <p class="grey-light">Sign up for Dolomia mounthly newsletter and get to know more about our latest adventures and much mores...</p>
-                            <div id="newsletter-form" class="padding-onlytop-xs">
-                                <form class="search-form">
-                                    <div class="form-input">
-                                        <input type="text" placeholder="Your email ID">
-                                        <span class="form-button">
-                                            <button type="button">Sign Up</button>
-                                        </span>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
+        <footer class="fixed full-width">
+            <div class="container">
+                <div class="row no-margin" style="display: flex;flex-direction: row;justify-content: center;column-gap: 200px;">
+                      
+                    <div class="col-sm-4 col-md-2 padding-leftright-null">
+                        <h6 class="heading white margin-bottom-extrasmall"><u>Contacts</u></h6>
+                        <ul class="info">
+                            <!-- <li><a href=""><i class="fa fa-facebook" aria-hidden="true"></i> Seismo Group</a></li> -->
+                            <li><a href=""><i class="fa fa-instagram" aria-hidden="true"></i> @montanha</a></li>
+                            <li><a href=""><i class="fa fa-twitter" aria-hidden="true"></i> @montanha</a></li>
+                            <li><a href=""><i class="" aria-hidden="true"></i> +62 08123456789</a></li>
+                            <li><a href=""><i class="" aria-hidden="true"></i> montanha@gmail.com</a></li>
+                        </ul>
                     </div>
-                    <div class="copy">
-                        <div class="row no-margin">
-                            <div class="col-md-8 padding-leftright-null">
-                                &copy; 2016 Dolomia -  Hiking &amp; Outdoor Html Template Handmade by <a href="http://www.patrickdavid.it">puredesignThemes</a>
-                            </div>
-                            <div class="col-md-4 padding-leftright-null">
-                                <ul class="social">
-                                    <li><a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                    <li><a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                    <li><a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                                    <li><a href=""><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-                                    <li><a href=""><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
-                                </ul>
-                            </div>
+
+                    <div class="col-sm-4 col-md-4 padding-leftright-null">
+                            <h6 class="heading white margin-bottom-extrasmall"><u>Address</u></h6>
+                            <ul class="info">
+                                <li><a href="https://goo.gl/maps/MWKTrmCoqMSqpR3F8" target="_blank" rel="noopener">Jl.Imam Bonjol No.03<br>Kelurahan Pendrikan Kidul</br>Kecamatan Semarang Tengah</br>
+                                Kota Semarang, Jawa Tengah, Indonesia</br></a></li>
+                            </ul>
+                    </div>
+                    
+                </div>
+
+                <div class="copy">
+                    <div class="row no-margin">
+                        <div class="col-md-8 padding-leftright-null">
+                            &copy; 2023 Montanha - Hiking &amp; made by <a href="http://www.patrickdavid.it">Seismo Group</a>
                         </div>
                     </div>
                 </div>
