@@ -7,6 +7,10 @@
         <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
         <title>Gunung Ungaran</title>
 
+        <!-- Favicons -->
+        <link href="{{ asset('assets/admin/img/logo.png') }}" rel="icon">
+        <link href="{{ asset('assets/admin/img/apple-touch-icon.png') }}" rel="apple-touch-icon">
+
         <!-- Bootstrap -->
         <link rel="stylesheet" href="assets/css/bootstrap/bootstrap.min.css">
 
@@ -58,7 +62,7 @@
                     <nav class="navbar navbar-default white">
                         <!--  Header Logo  -->
                         <div id="logo">
-                                <a class="navbar-brand" href="index.html">
+                                <a class="navbar-brand" href="/montanha">
                                 <img src="assets/img/logo1.png" class="normal" alt="logo">
                                 <img src="assets/img/logo1.png" class="retina" alt="logo">
                                 <img src="assets/img/logoputih.png" class="normal white-logo" alt="logo">

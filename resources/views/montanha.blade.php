@@ -11,6 +11,10 @@
     </div> -->
     <title>Montanha</title>
 
+    <!-- Favicons -->
+    <link href="{{ asset('assets/admin/img/logo.png') }}" rel="icon">
+    <link href="{{ asset('assets/admin/img/apple-touch-icon.png') }}" rel="apple-touch-icon">
+
     <!-- Bootstrap -->
     <link rel="stylesheet" href="assets/css/bootstrap/bootstrap.min.css">
 

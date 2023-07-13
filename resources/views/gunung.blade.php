@@ -7,6 +7,10 @@
         <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
         <title>Daftar Gunung</title>
 
+        <!-- Favicons -->
+        <link href="{{ asset('assets/admin/img/logo.png') }}" rel="icon">
+        <link href="{{ asset('assets/admin/img/apple-touch-icon.png') }}" rel="apple-touch-icon">
+
         <!-- Bootstrap -->
         <link rel="stylesheet" href="assets/css/bootstrap/bootstrap.min.css">
 
