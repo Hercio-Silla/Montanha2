@@ -32,18 +32,17 @@
     <link rel="stylesheet" href="assets/css/jquery.fullPage.css">
 
     <link rel="stylesheet" href="assets/forum/assets1/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/forum/assets1/niceselectpicker/nice-select.css">
-    <link rel="stylesheet" href="assets/forum/assets1/slick/slick.css">
-    <link rel="stylesheet" href="assets/forum/assets1/slick/slick-theme.css">
-    <link rel="stylesheet" href="assets/forum/assets1/elagent-icon/style.css">
-    <link rel="stylesheet" href="assets/forum/assets1/animation/animate.css">
-    <link rel="stylesheet" href="assets/forum/css1/style.css">
+    <link rel="stylesheet" href="assets/forum/assets1/niceselectpicker/nice-select.css"> 
+    <link rel="stylesheet" href="assets/forum/assets1/slick/slick.css"> 
+    <link rel="stylesheet" href="assets/forum/assets1/slick/slick-theme.css"> 
+    <link rel="stylesheet" href="assets/forum/assets1/elagent-icon/style.css"> 
+    <link rel="stylesheet" href="assets/forum/assets1/animation/animate.css"> 
+    <link rel="stylesheet" href="assets/forum/css1/style.css"> 
     <link rel="stylesheet" href="assets/forum/css1/responsive.css">
 
     <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
 
-    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    
     
     </head>
     <body>
@@ -58,7 +57,7 @@
             <header id="header" class="fixed transparent full-width">
                 <div class="container">
                     <nav class="navbar navbar-default white">
-                        <!--  Header Logo  -->
+                    <!--  Header Logo  -->
                     <div id="logo">
                         <a class="navbar-brand" href="/montanha">
                             <img src="assets/img/logo1.png" class="normal" alt="logo">
@@ -103,7 +102,7 @@
                         <li style="background-image:url(assets/img/forum.jpg)">
                             <div class="container text text-center">
                                 <h1 class="white margin-bottom-small">Forum</h1>
-                                <p class="heading white">Explore pengalamanmu dengan mendaki gunung di Jawa Tegah</p>
+                                <p class="heading white">Bagikan pengalamanmu mendaki gunung di Jawa Tegah</p>
                             </div>
                             <div class="gradient dark"></div>
                         </li>
@@ -305,8 +304,8 @@
                   <div class="modal-content">
                     <div class="modal-header">
                         <div>
-                            <h5 class="modal-title">Ask Question</h5>
-                            <small>Mau tanya apa?.</small>
+                            <h5 class="modal-title">Pembahasan</h5>
+                            <small>Tulis pengalaman dan pertanyaan anda disini.</small>
                         </div>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
@@ -334,7 +333,7 @@
                                 <small>Tag adalah kata kunci untuk mengelompokkan node kamu dengan yang lain, pilih 2-5 kata kunci dipisahkan dengan koma.</small>
                                 {{-- <small>domestik, naik gunung, fotografi</small> --}}
                             </div>
-                            <button type="submit" class="btn btn-primary">Submit</button>
+                            <button type="submit" class="btn btn-primary">Kirim</button>
                         </form>
                     </div>
                   </div>
@@ -365,6 +364,8 @@
         <script src="assets/js/imagesloaded.min.js"></script>
         <script src="assets/js/pace.min.js"></script>
         <script src="assets/js/main.js"></script>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
     </body>
 </html>
