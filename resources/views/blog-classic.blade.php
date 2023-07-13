@@ -107,14 +107,14 @@
                     <ul class="slides">
                         <li style="background-image:url(assets/img/artikel1.jpg)">
                             <div class="container text text-center">
-                                <h1 class="white margin-bottom-small">Our Blog</h1>
-                                <p class="heading white">Explore pengalamanmu dengan mendaki gunung di Jawa Tegah</p>
+                                <h1 class="white margin-bottom-small">Artikel</h1>
+                                <p class="heading white">Baca beragam macam artikel menarik kami</p>
                             </div>
                             <div class="gradient dark"></div>
                         </li>
                         <ol class="breadcrumb">
                             <li><a href="/montanha">Home</a></li>
-                            <li class="active">Blog</li>
+                            <li class="active">Artikel</li>
                         </ol>
                     </ul>
                 </div>
