@@ -58,7 +58,7 @@
                     <nav class="navbar navbar-default white">
                         <!--  Header Logo  -->
                         <div id="logo">
-                            <a class="navbar-brand" href="index.html">
+                            <a class="navbar-brand" href="/montanha">
                                 <img src="assets/img/logo1.png" class="normal" alt="logo">
                                 <img src="assets/img/logo1.png" class="retina" alt="logo">
                                 <img src="assets/img/logoputih.png" class="normal white-logo" alt="logo">
@@ -178,12 +178,12 @@
                                    <div class="col-sm-4 col-md-2">
                                        <i class="pd-icon-money service big margin-bottom-null white"></i>
                                        <em class="color">mdpl</em>
-                                       <h3 class="white">390€</h3>
+                                       <h3 class="white">2565</h3>
                                    </div>
                                    <div class="col-sm-4 col-md-2">
                                        <i class="pd-icon-hour service big margin-bottom-null white"></i>
                                        <em class="color">Status</em>
-                                       <h3 class="white">12/02/2017</h3>
+                                       <h3 class="white">Tidak Aktif</h3>
                                    </div>
                                    <div class="col-sm-4 col-md-2">
                                        <i class="pd-icon-camp-bag service big margin-bottom-null white"></i>
@@ -198,12 +198,12 @@
                                    <div class="col-sm-4 col-md-2">
                                        <i class="pd-icon-watch service big margin-bottom-null white"></i>
                                        <em class="color">Jam</em>
-                                       <h3 class="white">2</h3>
+                                       <h3 class="white">± 4</h3>
                                    </div>
                                    <div class="col-sm-4 col-md-2">
                                        <i class="pd-icon-distance service big margin-bottom-null white"></i>
                                        <em class="color">Jumlah Trek</em>
-                                       <h3 class="white">10,3 Km</h3>
+                                       <h3 class="white">6</h3>
                                    </div>
                                </div>
                                <!-- END Trek data -->

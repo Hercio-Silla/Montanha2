@@ -58,7 +58,7 @@
                     <nav class="navbar navbar-default white">
                         <!--  Header Logo  -->
                         <div id="logo">
-                            <a class="navbar-brand" href="index.html">
+                            <a class="navbar-brand" href="/montanha">
                                 <img src="assets/img/logo.png" class="normal" alt="logo">
                                 <img src="assets/img/logo@2x.png" class="retina" alt="logo">
                                 <img src="assets/img/logo_white.png" class="normal white-logo" alt="logo">
