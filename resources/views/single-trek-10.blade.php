@@ -58,7 +58,7 @@
                     <nav class="navbar navbar-default white">
                         <!--  Header Logo  -->
                         <div id="logo">
-                            <a class="navbar-brand" href="index.html">
+                            <a class="navbar-brand" href="/montanha">
                                 <img src="assets/img/logo1.png" class="normal" alt="logo">
                                 <img src="assets/img/logo1.png" class="retina" alt="logo">
                                 <img src="assets/img/logoputih.png" class="normal white-logo" alt="logo">
@@ -141,10 +141,10 @@
                                         <div class="hiker">
                                             <img src="assets/img/profil.jpeg" alt="">
                                             <h3 class="">Contact Person</h3>
-                                            <span class="meta grey">CP 1: </span>
-                                            <span class="meta grey">CP 2: </span>
-                                            <span class="meta grey">CP 3: </span>
-                                            <span class="meta grey">CP 4: </span>
+                                            <span class="meta grey">CP 1: 089561289291 (Jalur Bambangan)</span>
+                                            <span class="meta grey">CP 2: 081671202810 (Jalur Gunung Malang)</span>
+                                            <span class="meta grey">CP 3: 085193518929 (Jalur Dipajaya)</span>
+                                            <span class="meta grey">CP 4: 082157381028 (Jalur Guci)</span>
                                             <ul class="social">
                                                 <li>
                                                     <a href=""><i class="icon ion-social-twitter"></i></a>
@@ -176,12 +176,12 @@
                                    <div class="col-sm-4 col-md-2">
                                        <i class="pd-icon-money service big margin-bottom-null white"></i>
                                        <em class="color">mdpl</em>
-                                       <h3 class="white">390€</h3>
+                                       <h3 class="white">2117</h3>
                                    </div>
                                    <div class="col-sm-4 col-md-2">
                                        <i class="pd-icon-hour service big margin-bottom-null white"></i>
                                        <em class="color">Status</em>
-                                       <h3 class="white">12/02/2017</h3>
+                                       <h3 class="white">Tidak Aktif</h3>
                                    </div>
                                    <div class="col-sm-4 col-md-2">
                                        <i class="pd-icon-camp-bag service big margin-bottom-null white"></i>
@@ -196,12 +196,12 @@
                                    <div class="col-sm-4 col-md-2">
                                        <i class="pd-icon-watch service big margin-bottom-null white"></i>
                                        <em class="color">Jam</em>
-                                       <h3 class="white">2</h3>
+                                       <h3 class="white">± 3</h3>
                                    </div>
                                    <div class="col-sm-4 col-md-2">
                                        <i class="pd-icon-distance service big margin-bottom-null white"></i>
                                        <em class="color">Jumlah Trek</em>
-                                       <h3 class="white">10,3 Km</h3>
+                                       <h3 class="white">4</h3>
                                    </div>
                                </div>
                                <!-- END Trek data -->
@@ -281,10 +281,10 @@
                         <h6 class="heading white margin-bottom-extrasmall"><u>Contacts</u></h6>
                         <ul class="info">
                             <!-- <li><a href=""><i class="fa fa-facebook" aria-hidden="true"></i> Seismo Group</a></li> -->
-                            <li><a href=""><i class="fa fa-instagram" aria-hidden="true"></i> @montanha</a></li>
-                            <li><a href=""><i class="fa fa-twitter" aria-hidden="true"></i> @montanha</a></li>
-                            <li><a href=""><i class="" aria-hidden="true"></i> +62 08123456789</a></li>
-                            <li><a href=""><i class="" aria-hidden="true"></i> montanha@gmail.com</a></li>
+                            <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i> @montanha</a></li>
+                            <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i> @montanha</a></li>
+                            <li><a href="#"><i class="" aria-hidden="true"></i> +62 08123456789</a></li>
+                            <li><a href="#"><i class="" aria-hidden="true"></i> montanha@gmail.com</a></li>
                         </ul>
                     </div>
 
