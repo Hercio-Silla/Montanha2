@@ -2,8 +2,10 @@
 
 use App\Http\Controllers\QuestionAnswerController;
 use App\Http\Controllers\QuestionController;
+use App\Models\News;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Str;
 
 /*
 |--------------------------------------------------------------------------
@@ -39,8 +41,16 @@ Route::get('/gallery', function () {
 // });
 
 Route::get('/blog', function () {
-    return view('blog-classic');
+    $data['news'] = News::get();
+
+    return view('blog-classic', $data);
 });
+
+Route::get('/blog/detail/{id}', function ($id) {
+    $data['news'] = News::find($id);
+
+    return view('blog-detail', $data);
+})->name('blog.detail');
 
 Route::get('/art1', function () {
     return view('standard-post-art1');
@@ -98,16 +108,6 @@ Route::get('/regis', function () {
     return view('register');
 });
 
-Route::get('/admin', function () {
-    return view('admin');
-    
-});
-
-Route::get('/from_admin', function () {
-    return view('form_admin'); 
-});
-
-
 // Route::get('/forum', function () {
 //     return view('forum');
 // });
@@ -118,4 +118,26 @@ Route::get('/forum/show/{id}', [QuestionController::class, 'show'])->name('forum
 Route::group(['middleware' => 'auth'], function() {
     Route::post('/forum/store', [QuestionController::class, 'store'])->name('forum.store');
     Route::post('/forum-answer/store', [QuestionAnswerController::class, 'store'])->name('forum-answer.store');
+
+
+});
+
+
+$static_routes = ['forum', 'news'];
+
+Route::group(['prefix' => 'admin', 'as' => 'admin.', 'middleware' => 'role'], function() use($static_routes) {
+    Route::get('/', function () {
+        return redirect('/admin/forum');
+    });
+
+    foreach ($static_routes as $key => $prefix) {
+        $prefix_uc = ucfirst(Str::camel($prefix));
+        $controller = "App\\Http\\Controllers\\Admin\\{$prefix_uc}Controller";
+
+        Route::get("/$prefix", $controller.'@index')->name("$prefix");
+        Route::get("/$prefix/data", $controller.'@data')->name("$prefix.data");
+        Route::post("/$prefix/store", $controller.'@store')->name("$prefix.store");
+        Route::post("/$prefix/update/{id?}", $controller.'@update')->name("$prefix.update");
+        Route::post("/$prefix/destroy/{id?}", $controller.'@destroy')->name("$prefix.destroy");
+    }
 });
