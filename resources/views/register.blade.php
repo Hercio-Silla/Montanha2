@@ -122,7 +122,7 @@
                 <button type="submit" class="login__button">Register</button>
 
                 <p class="login__register">
-                    Sudah have an account? <a href="login.html">Login</a>
+                    Sudah have an account? <a href="/login">Login</a>
                 </p>
             </form>
 

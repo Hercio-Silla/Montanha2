@@ -44,7 +44,7 @@
 
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    <!--[endif]-->
     </head>
     <body>
       
@@ -103,10 +103,6 @@
                             </div>
                             <div class="gradient dark"></div>
                         </li>
-                        <ol class="breadcrumb">
-                            <li><a href="#">Home</a></li>
-                            <li class="active">Forum</li>
-                        </ol>
                     </ul>
                 </div>
                 <div id="page-wrap" class="content-section fullpage-wrap grey-background">

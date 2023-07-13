@@ -107,10 +107,6 @@
                             </div>
                             <div class="gradient dark"></div>
                         </li>
-                        <ol class="breadcrumb">
-                            <li><a href="#">Home</a></li>
-                            <li class="active">Forum</li>
-                        </ol>
                     </ul>
                 </div>
                 <div id="page-wrap" class="content-section fullpage-wrap grey-background">

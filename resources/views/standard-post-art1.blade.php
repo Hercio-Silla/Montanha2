@@ -402,19 +402,7 @@
                                     <p>Jam tangan merupakan alat penting dalam mendukung kegiatan mendaki gunung yang memiliki banyak fungsi. Tentunya, alat ini tidak hanya berguna sebagai penunjuk waktu. Namun, banyak jam tangan dengan fitur yang berguna untuk pendaki gunung, yaitu termometer, GPS, altimeter, dan barometer. Dengan begitu, jam tangan bermanfaat sebagai alat navigasi yang bisa dibawa dari rumah.</p>
                                 </div>
                             </div>
-                            <!--  Author Meta  -->
-                            <div class="row no-margin">
-                                <div class="col-md-12 padding-leftright-null">
-                                    <div id="post-meta">
-                                        <img src="assets/img/hiker1.jpg" alt="">
-                                        <div class="author">
-                                            <h3>Admin</h3>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis minus dolorem beatae, laborum magni excepturi repellendus at facere quaerat soluta velit praesentium aliquam sapiente tempora!</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--  END Autor Meta  -->
+                                                                                            
                             <!--  Share Btn  -->
                             <div id="share">
                                 <a class="share-btn">
@@ -436,104 +424,7 @@
                                 </div>
                             </div>
                             <!--  END Share Btn  -->
-                            <!--  Comments  -->
-                            <div class="row no-margin">
-                                <div class="col-md-12 padding-leftright-null">
-                                    <div id="comments">
-                                        <ul class="nav nav-tabs" role="tablist">
-                                            <li role="presentation" class="active"><a href="#tab-one" aria-controls="tab-one" role="tab" data-toggle="tab" aria-expanded="true">All comments</a></li>
-                                            <li role="presentation" class=""><a href="#tab-two" aria-controls="tab-two" role="tab" data-toggle="tab" aria-expanded="false">Leave a comment</a></li>
-                                        </ul>
-                                        <!--  Nav Tabs  -->
-                                        <!-- Tab panes -->
-                                        <div class="tab-content no-margin-bottom">
-                                            <div role="tabpanel" class="tab-pane padding-md active" id="tab-one">
-                                                <div class="comment">
-                                                    <div class="row margin-null">
-                                                       <div class="col-md-12 padding-leftright-null">
-                                                           <img src="assets/img/hiker2.jpg" alt="">
-                                                           <div class="content">
-                                                               <span class="comment-author">
-                                                                   Asia Rossi
-                                                               </span>
-                                                               <span class="comment-date">
-                                                                   12.11.2017
-                                                               </span>
-                                                               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti quo fuga corporis sunt voluptate, quia, beatae voluptates est possimus impedit eveniet quaerat nulla sapiente. Omnis odit quas est fuga nam.</p>
-                                                               <span class="comment-btn">
-                                                                   <a href="#">Reply</a>
-                                                               </span>
-                                                           </div>
-                                                       </div>
-                                                    </div>
-                                                </div>
-                                                <div class="comment reply">
-                                                    <div class="row margin-null">
-                                                        <div class="col-md-10 col-md-offset-2 padding-leftright-null">
-                                                            <img src="assets/img/hiker3.jpg" alt="">
-                                                            <div class="content">
-                                                                <span class="comment-author">
-                                                                    John Doe
-                                                                </span>
-                                                                <span class="comment-date">
-                                                                    12.11.2017
-                                                                </span>
-                                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti quo fuga corporis sunt voluptate, quia, beatae voluptates est possimus impedit eveniet quaerat nulla sapiente. Omnis odit quas est fuga nam.</p>
-                                                                <span class="comment-btn">
-                                                                    <a href="#">Reply</a>
-                                                                </span>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="comment">
-                                                    <div class="row">
-                                                        <div class="col-md-12 padding-leftright-null">
-                                                            <img src="assets/img/hiker4.jpg" alt="">
-                                                            <div class="content">
-                                                                <span class="comment-author">
-                                                                    Jessica Brown
-                                                                </span>
-                                                                <span class="comment-date">
-                                                                    12.11.2017
-                                                                </span>
-                                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti quo fuga corporis sunt voluptate, quia, beatae voluptates est possimus impedit eveniet quaerat nulla sapiente. Omnis odit quas est fuga nam.</p>
-                                                                <span class="comment-btn">
-                                                                    <a href="#">Reply</a>
-                                                                </span>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div role="tabpanel" class="tab-pane padding-md" id="tab-two">
-                                                <section class="comment-form">
-                                                    <form id="contact-form">
-                                                        <div class="row">
-                                                            <div class="col-md-6">
-                                                                <input class="form-field" name="name" id="name" type="text" placeholder="Name">
-                                                            </div>
-                                                            <div class="col-md-6">
-                                                                <input class="form-field" name="mail" id="mail" type="text" placeholder="Email">
-                                                            </div>
-                                                        </div>
-                                                        <div class="row">
-                                                            <div class="col-md-12">
-                                                                <textarea class="form-field" name="messageForm" id="messageForm" rows="6" placeholder="Your Message"></textarea>
-                                                                <div class="submit-area">
-                                                                    <input type="submit" id="submit-contact" class="btn-alt" value="Submit">
-                                                                    <div id="msg" class="message"></div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </form>
-                                                </section>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--  END Comments  -->
+                            
                         </div>
                     </div>
                 </div>
