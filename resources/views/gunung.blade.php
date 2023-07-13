@@ -346,16 +346,16 @@
                                             <div class="row margin-leftright-null">
                                                 <div class="meta">
                                                     <div class="col-md-4 padding-leftright-null">
-                                                        <h3>1</h3>
+                                                        <h3>± 4</h3>
                                                         <h4>Jam</h4>
                                                     </div>
                                                     <div class="col-md-4 padding-leftright-null">
-                                                        <h3>20</h3>
+                                                        <h3>2565</h3>
                                                         <h4>Mdpl</h4>
                                                     </div>
                                                     <div class="col-md-4 padding-leftright-null">
                                                         <h3>Medium</h3>
-                                                        <h4>Kesulitan</h4>
+                                                        <h4>Tinggi</h4>
                                                     </div>
                                                 </div>
                                                 <div class="category">
@@ -379,15 +379,15 @@
                                             <div class="row margin-leftright-null">
                                                 <div class="meta">
                                                     <div class="col-md-4 padding-leftright-null">
-                                                        <h3>1</h3>
+                                                        <h3>± 7</h3>
                                                         <h4>Jam</h4>
                                                     </div>
                                                     <div class="col-md-4 padding-leftright-null">
-                                                        <h3>20</h3>
+                                                        <h3>3265</h3>
                                                         <h4>Mdpl</h4>
                                                     </div>
                                                     <div class="col-md-4 padding-leftright-null">
-                                                        <h3>Medium</h3>
+                                                        <h3>Tinggi</h3>
                                                         <h4>Kesulitan</h4>
                                                     </div>
                                                 </div>
@@ -412,7 +412,7 @@
                                             <div class="row margin-leftright-null">
                                                 <div class="meta">
                                                     <div class="col-md-4 padding-leftright-null">
-                                                        <h3>± 4</h3>
+                                                        <h3>± 3</h3>
                                                         <h4>Jam</h4>
                                                     </div>
                                                     <div class="col-md-4 padding-leftright-null">
@@ -446,15 +446,15 @@
                                             <div class="row margin-leftright-null">
                                                 <div class="meta">
                                                     <div class="col-md-4 padding-leftright-null">
-                                                        <h3>8</h3>
+                                                        <h3>± 3</h3>
                                                         <h4>Jam</h4>
                                                     </div>
                                                     <div class="col-md-4 padding-leftright-null">
-                                                        <h3>5</h3>
+                                                        <h3>2117</h3>
                                                         <h4>Mdpl</h4>
                                                     </div>
                                                     <div class="col-md-4 padding-leftright-null">
-                                                        <h3>Easy</h3>
+                                                        <h3>Tinggi</h3>
                                                         <h4>Kesulitan</h4>
                                                     </div>
                                                 </div>
@@ -495,13 +495,10 @@
                       
                     <div class="col-sm-4 col-md-2 padding-leftright-null">
                         <h6 class="heading white margin-bottom-extrasmall"><u>Contacts</u></h6>
-                        <ul class="info">
-                            <!-- <li><a href=""><i class="fa fa-facebook" aria-hidden="true"></i> Seismo Group</a></li> -->
-                            <li><a href=""><i class="fa fa-instagram" aria-hidden="true"></i> @montanha</a></li>
-                            <li><a href=""><i class="fa fa-twitter" aria-hidden="true"></i> @montanha</a></li>
-                            <li><a href=""><i class="" aria-hidden="true"></i> +62 08123456789</a></li>
-                            <li><a href=""><i class="" aria-hidden="true"></i> montanha@gmail.com</a></li>
-                        </ul>
+                            <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i> @montanha</a></li>
+                            <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i> @montanha</a></li>
+                            <li><a href="#"><i class="" aria-hidden="true"></i> +62 08123456789</a></li>
+                            <li><a href="#"><i class="" aria-hidden="true"></i> montanha@gmail.com</a></li>
                     </div>
 
                     <div class="col-sm-4 col-md-4 padding-leftright-null">

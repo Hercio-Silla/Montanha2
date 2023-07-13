@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-        <title>Dolomia HTML Template</title>
+        <title>Artikel</title>
 
         <!-- Bootstrap -->
         <link rel="stylesheet" href="{{ asset('assets/css/bootstrap/bootstrap.min.css') }}">
@@ -195,11 +195,10 @@
                             </div>
                             <div class="col-md-4 padding-leftright-null">
                                 <ul class="social">
-                                    <li><a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                    <li><a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                    <li><a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                                    <li><a href=""><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-                                    <li><a href=""><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i> @montanha</a></li>
+                                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i> @montanha</a></li>
+                                    <li><a href="#"><i class="" aria-hidden="true"></i> +62 08123456789</a></li>
+                                    <li><a href="#"><i class="" aria-hidden="true"></i> montanha@gmail.com</a></li>
                                 </ul>
                             </div>
                         </div>
