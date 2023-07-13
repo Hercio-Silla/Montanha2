@@ -1,11 +1,11 @@
 @extends('admin.layouts.master')
-@section('title', 'Forum')
+@section('title', 'Artikel')
 
 @section('content')
 
     <div class="card card-outline card-primary">
         <div class="card-header with-border d-flex flex-row justify-content-between">
-            <h3 class="card-title">Data Postingna Forum</h3>
+            <h3 class="card-title">Data Artikel</h3>
             <button type="button" class="btn btn-primary create" data-toggle="modal" data-target="#formModal">Tambah</button>
         </div>
         
