@@ -125,10 +125,10 @@
                             <div class="row content-post no-margin">
                                 <!--  Post Meta  -->
                                 <div class="col-md-12 padding-leftright-null text-center">
-                                    <h2 class="margin-bottom-null title simple left">Project description</h2>
-                                    <span class="category">Tech</span>
+                                    <h2 class="margin-bottom-null title simple left">Deskripsi</h2>
+                                    <!-- <span class="category">Tech</span>
                                     <span class="category last">Social</span>
-                                    <span class="date">02.11.2016</span>
+                                    <span class="date">02.11.2016</span> -->
                                 </div>
                                 <!--  END Post Meta  -->
                                 <div class="col-md-12 padding-onlytop-md padding-leftright-null">
