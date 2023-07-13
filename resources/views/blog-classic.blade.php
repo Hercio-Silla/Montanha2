@@ -125,57 +125,23 @@
                             <!--  News Section  -->
                             <section id="news" class="page">
                                 <div class="news-items equal one-columns">
+                                    @foreach ($news as $item)
                                     <div class="single-news one-item horizontal-news">
                                         <article>
                                             <div class="col-md-6 padding-leftright-null">
-                                                <div class="image" style="background-image:url(assets/img/perkap_mendaki1.png)"></div>
+                                                <div class="image" style="background-image:url({{ asset($item->thumbnail) }})"></div>
                                             </div>
                                             <div class="col-md-6 padding-leftright-null">
                                                 <div class="content">
-                                                    <h3>Peralatan & Perlengkapan</h3>
-                                                    <span class="date">25.05.2023</span>
-                                                    <p>Dalam kegiatan mendaki tentu perlengkapan dan peralatan yang digunakan untuk kebutuhan mendaki harus di persiapkan.</p>
-                                                    <span class="category">Travel</span>
-                                                    <span class="category">Blog</span>
+                                                    <h3>{{ $item->title }}</h3>
+                                                    <span class="date">{{ $item->created_at->format('d M Y H:i ') }}</span>
+                                                    <p>{{ $item->small_description }}</p>
                                                 </div>
                                             </div>
-                                            <a href="/art1" class="link"></a>
+                                            <a href="{{ route('blog.detail', $item->id) }}" class="link"></a>
                                         </article>
                                     </div>
-                                    <div class="single-news one-item horizontal-news">
-                                        <article>
-                                            <div class="col-md-6 padding-leftright-null">
-                                                <div class="image" style="background-image:url(assets/img/tips&trik_mendaki.png)"></div>
-                                            </div>
-                                            <div class="col-md-6 padding-leftright-null">
-                                                <div class="content">
-                                                    <h3>Tips & Trik</h3>
-                                                    <span class="date">25.05.2023</span>
-                                                    <p>Kegiatan mendaki juga memiliki tips dan trik agar perjalanan menuju puncak tidak membosankan dan sampai di puncak dengan aman.</p>
-                                                    <span class="category">Travel</span>
-                                                    <span class="category">Mountain</span>
-                                                </div>
-                                            </div>
-                                            <a href="/art2" class="link"></a>
-                                        </article>
-                                    </div>
-                                    <div class="single-news one-item horizontal-news">
-                                        <article>
-                                            <div class="col-md-6 padding-leftright-null">
-                                                <div class="image" style="background-image:url(assets/img/hipotermia.png)"></div>
-                                            </div>
-                                            <div class="col-md-6 padding-leftright-null">
-                                                <div class="content">
-                                                    <h3>Hipotermia</h3>
-                                                    <span class="date">25.05.2023</span>
-                                                    <p>Dalam kegiatan mendaki tak sedikit pendaki mengalami hipotermia, dengan ini kita wajib mengetahui pencegahan dan solusi dalam mengatasinya.</p>
-                                                    <span class="category">Photography</span>
-                                                    <span class="category">Nature</span>
-                                                </div>
-                                            </div>
-                                            <a href="art3" class="link"></a>
-                                        </article>
-                                    </div>
+                                    @endforeach
                                 </div>
                             </section>
                             <!--  END News Section  -->
