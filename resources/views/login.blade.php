@@ -96,7 +96,7 @@
                   <input type="checkbox" class="login__check-input">
                   <label for="" class="login__check-label">Remember me</label>
                </div>
-               <a href="#" class="login__forgot">Forgot Password?</a>
+               
             </div>
 
             <button type="submit" class="login__button">Login</button>
