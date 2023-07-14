@@ -103,7 +103,7 @@
         <ul class="sidebar-nav" id="sidebar-nav">
 
             <li class="nav-item">
-                <a class="nav-link" href="{{ route('admin.forum') }}">
+                <a class="nav-link collapsed" href="{{ route('admin.forum') }}">
                     <i class="bi bi-menu-button-wide"></i>
                     <span>Forum</span>
                 </a>
